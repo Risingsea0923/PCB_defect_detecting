@@ -1,0 +1,66 @@
+
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <meta charset="utf-8">
+                    <title>PCB缺陷检测报告</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; margin: 20px; }
+                        .header { text-align: center; margin-bottom: 20px; }
+                        .result-image { text-align: center; margin-bottom: 20px; }
+                        .result-image img { max-width: 100%; }
+                        table { width: 100%; border-collapse: collapse; }
+                        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                        th { background-color: #f2f2f2; }
+                        tr:nth-child(even) { background-color: #f9f9f9; }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <h1>PCB缺陷检测报告</h1>
+                        <p>生成时间: 2025-03-13 11:24:29</p>
+                    </div>
+                    
+                    <div class="result-image">
+                        <h2>检测结果图像</h2>
+                        <img src="result.png" alt="检测结果">
+                    </div>
+                    
+                    <h2>检测到的缺陷 (3个)</h2>
+                    <table>
+                        <tr>
+                            <th>序号</th>
+                            <th>缺陷类型</th>
+                            <th>置信度</th>
+                            <th>位置</th>
+                            <th>尺寸</th>
+                        </tr>
+                
+                        <tr>
+                            <td>1</td>
+                            <td>missing_hole</td>
+                            <td>0.86</td>
+                            <td>(2749, 698)</td>
+                            <td>66 x 67</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2</td>
+                            <td>missing_hole</td>
+                            <td>0.84</td>
+                            <td>(479, 1121)</td>
+                            <td>60 x 61</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3</td>
+                            <td>missing_hole</td>
+                            <td>0.73</td>
+                            <td>(2628, 1327)</td>
+                            <td>71 x 68</td>
+                        </tr>
+                    
+                    </table>
+                </body>
+                </html>
+                

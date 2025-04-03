@@ -1,0 +1,58 @@
+
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <meta charset="utf-8">
+                    <title>PCB缺陷检测报告</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; margin: 20px; }
+                        .header { text-align: center; margin-bottom: 20px; }
+                        .result-image { text-align: center; margin-bottom: 20px; }
+                        .result-image img { max-width: 100%; }
+                        table { width: 100%; border-collapse: collapse; }
+                        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                        th { background-color: #f2f2f2; }
+                        tr:nth-child(even) { background-color: #f9f9f9; }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <h1>PCB缺陷检测报告</h1>
+                        <p>生成时间: 2025-03-05 14:31:25</p>
+                    </div>
+                    
+                    <div class="result-image">
+                        <h2>检测结果图像</h2>
+                        <img src="result.png" alt="检测结果">
+                    </div>
+                    
+                    <h2>检测到的缺陷 (2个)</h2>
+                    <table>
+                        <tr>
+                            <th>序号</th>
+                            <th>缺陷类型</th>
+                            <th>置信度</th>
+                            <th>位置</th>
+                            <th>尺寸</th>
+                        </tr>
+                
+                        <tr>
+                            <td>1</td>
+                            <td>mouse_bite</td>
+                            <td>0.61</td>
+                            <td>(730, 1395)</td>
+                            <td>41 x 31</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2</td>
+                            <td>mouse_bite</td>
+                            <td>0.55</td>
+                            <td>(176, 1195)</td>
+                            <td>29 x 47</td>
+                        </tr>
+                    
+                    </table>
+                </body>
+                </html>
+                
