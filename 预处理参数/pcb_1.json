@@ -1,0 +1,23 @@
+{
+    "target": "\u5f85\u6d4b\u56fe",
+    "filter_method": "nlm",
+    "filter_h": 10,
+    "filter_k": 4,
+    "sharpen_method": "laplacian",
+    "sharpen_w": 1.0,
+    "eq_method": "clahe",
+    "eq_clip": 2.0,
+    "thresh_method": "manual",
+    "manual_thresh": 101,
+    "adapt_blockSize": 32,
+    "adapt_C": 5,
+    "morph_method": "open",
+    "morph_kernel": 4,
+    "morph_iter": 1,
+    "reg_method": "SIFT",
+    "sift_nfeatures": 500,
+    "harris_thresh": 0.01,
+    "order_step1": "\u6ee4\u6ce2",
+    "order_step2": "\u9510\u5316",
+    "order_step3": "\u5747\u8861\u5316"
+}

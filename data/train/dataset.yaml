@@ -1,0 +1,15 @@
+path: D:/030923/data/train
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: missing_hole
+  1: mouse_bite
+  2: open_circuit
+  3: short
+  4: spurious_copper
+  5: spur
+  6: misalignment
+  7: insufficient_tin
+  8: lifted_edge
